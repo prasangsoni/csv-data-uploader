@@ -26,7 +26,7 @@ define("CDU_PLUGIN_DIR_PATH", plugin_dir_path(__FILE__));
  }
 
  // DB Table on Plugin Activation
- register_activation_hook(__FILE__, "cdu_create_table");
+  register_activation_hook(__FILE__, "cdu_create_table");
 
  function cdu_create_table(){
 
